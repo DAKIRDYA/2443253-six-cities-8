@@ -112,7 +112,7 @@ npm run ts ./src/main.cli.ts -- --import ./src/mocks/mock-offers.tsv admin test 
 
 ### Файл `Readme.md`
 
-Инструкции по работе с учебным репозиторием.
+Инструкции по работе проектом.
 
 ### Файл `Contributing.md`
 

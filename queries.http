@@ -26,7 +26,7 @@ Content-Type: application/json
 ## Добавить новое предложение
 POST http://localhost:5000/offers HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IklyaW5hQHlhbmRleC5ydSIsImZpcnN0bmFtZSI6IklyaW5hIiwidHlwZSI6InBybyIsImlkIjoiNjcyMzNiY2I0YjYwMzgxNGJkNzg0YjUyIiwiaWF0IjoxNzMwNjI3MDc4LCJleHAiOjE3MzA3OTk4Nzh9.nGWxa9gChYd21o2e6WXx42fzpU569_6rxKLHPiCjsQo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IlNhc2hhQHlhbmRleC5ydSIsImZpcnN0bmFtZSI6IlNhc2hhIiwidHlwZSI6InBybyIsImlkIjoiNjdkNmIyZGRkYzY3YjhiZTUwMDY1NDE0IiwiaWF0IjoxNzQyMTIzNzgyLCJleHAiOjE3NDIyOTY1ODJ9.XaNKsycyqxwelAZY-d4Oe_guOTPXYSp_pimMP5BgsMo
 {
  "title": "New offer 100",
  "description": "Discover daily local life in city center, friendly neighborhood, clandestine casino, karaoke, old-style artisans, art gallery and artist studio downstairs.",
@@ -106,7 +106,7 @@ POST http://localhost:5000/login HTTP/1.1
 Content-Type: application/json
 
 {
-  "email": "Irina@yandex.ru",
+  "email": "Sasha@yandex.ru",
   "password": "1234567"
 }
 
@@ -116,7 +116,7 @@ Content-Type: application/json
 
 ## Проверить состояние (токен) пользователя
 GET http://localhost:5000/login HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IklyaW5hQHlhbmRleC5ydSIsImZpcnN0bmFtZSI6IklyaW5hIiwidHlwZSI6InBybyIsImlkIjoiNjcyMzNiY2I0YjYwMzgxNGJkNzg0YjUyIiwiaWF0IjoxNzMwNjI3MDc4LCJleHAiOjE3MzA3OTk4Nzh9.nGWxa9gChYd21o2e6WXx42fzpU569_6rxKLHPiCjsQo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IklyaW5hQHlhbmRleC5ydSIsImZpcnN0bmFtZSI6IklyaW5hIiwidHlwZSI6InBybyIsImlkIjoiNjcyMzNiY2I0YjYwMzgxNGJkNzg0YjUyIiwiaWF0IjoxNzQyMTIwMTIwLCJleHAiOjE3NDIyOTI5MjB9.1aIaPVYTE0e2U0E6Xdu9ECj1sPTVWzzOQD_veAnQOVQ
 
 ###
 
