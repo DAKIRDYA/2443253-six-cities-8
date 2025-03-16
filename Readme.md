@@ -45,6 +45,7 @@ npm install
 
 Заполнение БД тестовыми данными (src/mocks/mock-offers.tsv)
 > npm run ts ./src/main.cli.ts -- --import <путь к файлу с тестовыми данными> <БД пользователь> <БД пароль пользователя> <host> <имя БД> <secret>
+
 Пример:
 > npm run ts ./src/main.cli.ts -- --import ./src/mocks/mock-offers.tsv admin test localhost "six-cities" secret
 
